@@ -7,7 +7,7 @@ require([
   "esri/widgets/BasemapGallery",
   "esri/widgets/Search"
 
-], function (esriConfig, Map, MapView, BasemapToggle, BasemapGallery, Search/) {
+], function (esriConfig, Map, MapView, BasemapToggle, BasemapGallery, Search) {
   esriConfig.apiKey = "AAPK56def8cbf3434b1cb07dac4b48c06c35drmrUkaCWRjecumEQB12aAfsXXc7DaGViFGqUUDU9rRh4QmR3rQRFgMcCslP1wbR";
 
   const map = new Map({
